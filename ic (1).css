@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Arial, sans-serif';
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid whitesmoke;
+}
+
+.ic {
+  font-family: cursive;
+  font-size: 70px;
+  font-weight: bold;
+  box-shadow: 10px 10px 10px darkgray;
+  border-radius: 5px;
+}
+
+nav {
+  padding: 50px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+nav a {
+  padding: 10px 15px;
+  margin: 0 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 8px 8px 8px darkgray;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  background-color: #e0f2f1;
+  color: teal;
+}
+
+section {
+  padding: 40px 20px;
+  margin: 20px;
+  background-image: url(hhhhhh.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px black;
+}
+
+#home {
+  text-align: center;
+}
+
+.welcome {
+  font-size: 2.5em;
+  color: floralwhite;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.desc {
+  font-size: 1.2em;
+  color: floralwhite;
+  line-height: 1.6;
+}
+
+.label {
+  background: floralwhite;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 0 20px floralwhite;
+  border-radius: 8px;
+}
+
+.label h2 {
+  color: black;
+}
+
+.label ul {
+  font-family: cursive;
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+}
+
+.label li {
+  margin: 5px 0;
+}
+
+#shop {
+  text-align: center;
+}
+
+.headd {
+  font-size: 2em;
+  color: floralwhite;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.flavor-item {
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+}
+
+.flavor-item h6 {
+  font-size: 1.2em;
+  color: floralwhite;
+  text-decoration: underline;
+}
+
+.flavor-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: 5px 10px 10px white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.flavor-item img:hover {
+  transform: scale(1.1);
+}
+
+#about {
+  text-align: center;
+}
+
+#about h4 {
+  background: floralwhite;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .flavor-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .flavor-item {
+        width: 100%;
+    }
+}
